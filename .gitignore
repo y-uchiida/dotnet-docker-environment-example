@@ -1,0 +1,62 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore logs, database, and test results
+*.log
+*.tlog
+*.pdb
+*.mdb
+*.opendb
+*.jfm
+*.cache
+*.ilk
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.sqlite
+*.sql
+*.mdf
+*.ldf
+*.ndb
+*.db-shm
+*.db-wal
+*.db-journal
+*.db
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.sqlite
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.tmp.*
+*.temp.*
+
+# Ignore publish outputs
+publish/
